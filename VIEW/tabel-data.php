@@ -1,3 +1,6 @@
+<?php  
+	include '../PHP/session.php';
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -6,10 +9,10 @@
 	<link rel="stylesheet" type="text/css" href="CSS/style.css">
 </head>
 <body>
-	<form class="logout" method="POST" action="">
+	<form class="logout" method="POST" action="../PHP/logout.php">
 		<input type="submit" name="logout" class="red" value="Keluar">
 	</form>
-	<h1>tabel data</h1>
+	<h1>TABEL DATA</h1>
 	<table class="table1">
 		<tr>
 			<th>No</th>
